@@ -137,13 +137,9 @@ footer {
     border: 3px dotted #ffffff
 }
 
-.bottom {
-    padding-bottom: 0;
-}
-
 #bottom-footer {
     background-color: #15837d;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     width: 1200px;
     padding: 20px 0;
     display: flex;
