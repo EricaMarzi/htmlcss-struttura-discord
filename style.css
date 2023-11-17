@@ -4,3 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #add8e6;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav {
+    margin: 15px;
+    width: 1000px;
+    height: 50px;
+    background-color: #d5ad4a;
+    display: flex;
+}
+
+
+#link {
+    width: 50%;
+    border-top: 3px dotted #7c5a05;
+    border-bottom: 3px dotted #7c5a05;
+}
+
+#logo, #login {
+    width: 25%;
+    border: 3px dotted #7c5a05;
+}
