@@ -65,7 +65,7 @@ section {
     background-color:  rgb(167, 207, 194);
 }
 
-.container {
+.flex-container {
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
@@ -84,4 +84,11 @@ section {
     height: 500px;
     background-color: #f1cdd4;
     border: 3px dotted #613461;
+}
+
+.onlychild-content {
+    width: 1200px;
+    height: 800px;
+    background-color: #478847;
+    border: 3px dotted #234123
 }
