@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* HEADER*/
+
 header {
     background-color: #add8e6;
     min-height: 580px;
@@ -51,8 +53,12 @@ nav {
     border: 3px dotted #613461;
 }
 
+/*MAIN*/
+
 section {
     padding: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -64,9 +70,8 @@ section {
     background-color:  rgb(167, 207, 194);
 }
 
-.flex-container, .upper-footer-container, .bottom-footer-content {
-    margin: 0 auto;
-    max-width: 1200px;
+.flex-container {
+    width: 1200px;
     display: flex;
    
 }
@@ -92,6 +97,8 @@ section {
     border: 3px dotted #234123
 }
 
+/*FOOTER*/
+
 footer {
     padding-top: 10px;
     background-color: #23272a;
@@ -99,7 +106,13 @@ footer {
     width: 100%;
 }
 
-.upper-footer-container {
+.upper, .bottom {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.upper {
     margin-bottom: 40px;
 }
 
