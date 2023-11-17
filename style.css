@@ -63,11 +63,11 @@ section {
 
 
 #odd-content {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #even-content {
-    background-color:  rgb(167, 207, 194);
+    background-color:  #a7cfc2;
 }
 
 .flex-container {
@@ -107,9 +107,9 @@ footer {
 }
 
 .upper, .bottom {
+    margin: 0 auto;
     width: 1200px;
     display: flex;
-    justify-content: center;
 }
 
 .upper {
@@ -133,9 +133,12 @@ footer {
 }
 
 .col {
-    height: 100%;
     width: calc(100% / 4);
-    border: 3px dotted white
+    border: 3px dotted #ffffff
+}
+
+.bottom {
+    padding-bottom: 0;
 }
 
 #bottom-footer {
