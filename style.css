@@ -62,11 +62,11 @@ section {
 }
 
 
-#odd-content {
+.odd-content {
     background-color: #ffffff;
 }
 
-#even-content {
+.even-content {
     background-color:  #a7cfc2;
 }
 
