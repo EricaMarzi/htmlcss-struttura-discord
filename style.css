@@ -12,19 +12,18 @@ header {
     min-height: 580px;
 }
 
-#navigation-bar {
+nav {
     display: flex;
     justify-content: center;
 }
 
-nav {
+#navigation-bar {
     margin: 15px;
     width: 1200px;
     height: 50px;
     background-color: #d5ad4a;
     display: flex;
 }
-
 
 #link {
     width: 50%;
@@ -61,7 +60,6 @@ section {
     justify-content: center;
 }
 
-
 .odd-content {
     background-color: #ffffff;
 }
@@ -73,7 +71,6 @@ section {
 .flex-container {
     width: 1200px;
     display: flex;
-   
 }
 
 .big-content {
@@ -91,7 +88,7 @@ section {
 }
 
 .onlychild-content {
-    width: 1200px;
+    width: 100%;
     height: 800px;
     background-color: #478847;
     border: 3px dotted #234123
